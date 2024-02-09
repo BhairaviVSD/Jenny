@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     int size;
     printf("Enter the size of array\n");
     scanf("%d", &size);
@@ -8,11 +9,13 @@ int main(){
 
     int array[size];
     printf("Enter the elements of array\n");
-    for (int i = 0; i < size; i++){
+    for (int i = 0; i < size; i++)
+    {
         scanf("%d", &array[i]);
     }
     printf("The elements of the array are as follows\n");
-    for (int i = 0; i < size; i++){
+    for (int i = 0; i < size; i++)
+    {
         printf("%d\n", array[i]);
     }
 
